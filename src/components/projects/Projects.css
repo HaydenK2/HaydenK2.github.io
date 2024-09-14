@@ -12,6 +12,7 @@
 }
 
 .section-title-container {
+    top: 10px;
     margin: auto;
     text-align: center;
     /* background-color: blue; */
@@ -77,6 +78,11 @@
     /* background-color: blue; */
     width: 50%;
 }
+.project-gif {
+    width: 500px;
+    height: 300px;
+    margin-top:10px;
+}
 
 .project-summary-container {
     /* background-color: red; */
@@ -101,7 +107,3 @@
     margin: 10px;
 }
 
-.project-gif {
-    width: 500px;
-    height: 300px;
-}
