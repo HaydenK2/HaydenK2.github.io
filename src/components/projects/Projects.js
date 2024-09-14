@@ -15,9 +15,6 @@ const Home = () => {
         <br/>
         <div className="left-container">
             <div className ="left-box-container">
-                <div className="project-gif-container">
-                    <img className="project-gif" src='/gifs/JobAppTrackerDemo.gif' alt="Job App Tracker Gif"/>
-                </div>
                 <div className = "project-summary-container">
                     <div className="project-title-container">
                         Portfolio Website
@@ -32,6 +29,10 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <div className="project-gif-container">
+                    <img className="project-gif" src='/gifs/JobAppTrackerDemo.gif' alt="Job App Tracker Gif"/>
+                </div>
+
             </div>
         </div>
 

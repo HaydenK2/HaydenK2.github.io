@@ -3,7 +3,7 @@
  
     /* display:inline-block; */
     display: flex;
-    height: 700px;
+    height: 800px;
     width: 100%;    
 }
 
@@ -77,7 +77,7 @@
 }
 
 .profile-pic {
-    width: 70%;
+    width: 81%;
     height: 65%;
     margin-left: 10px;
     position: relative;
@@ -89,4 +89,6 @@
     0% {left: 200px; opacity: 0%}
     100% {left: 0px; opacity: 100%}
 }
+
+
 

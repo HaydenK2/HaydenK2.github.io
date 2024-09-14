@@ -1,0 +1,37 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(0, 35, 106);
+    color: white;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.social-link-container {
+    width: 5%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+.long-container {
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+
+    /* margin: auto; */
+}
+
+.rights-container {
+    width: 20%;
+    height: 100%;
+    /* background-color: rgb(0, 0, 80); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
