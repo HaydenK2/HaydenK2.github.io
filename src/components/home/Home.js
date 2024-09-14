@@ -9,8 +9,10 @@ const Home = () => {
             <div className = "title-container">
               <div className ="title-text-container">
                 <div className="title-text"> Hello! 안녕하세요!</div>
-                <span className="title-text"> I'm </span>
-                <span className="name-text"> Hayden Kim </span>  
+                <div className="name-container">
+                  <span className="im-text"> I'm </span>
+                  <span className="name-text"> Hayden Kim </span>  
+                </div>
                 <div className="welcome-text"> Welcome to my Website! </div>
                 
               </div>
