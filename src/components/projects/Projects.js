@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 import {useEffect, useRef} from 'react';
 
-const Home = () => {
+const Projects = () => {
     //  will store the classes that use ref
     const elementsRef = useRef([]);
 
@@ -50,6 +50,9 @@ const Home = () => {
             elementsRef.current.push(element);
         }
     };
+
+
+    
     return (
         
         <div className = "project-container">
@@ -214,4 +217,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Projects

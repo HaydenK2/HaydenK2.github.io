@@ -74,20 +74,28 @@
     align-content: center;
     /* background-color: rgb(219, 14, 255); */
     width: 45%;
+    margin: auto;
+    padding: 10px;
+}
+
+.profile-pic-frame {
+    /* background-color: green; */
+    position: relative;
+    animation-name: picture-appear;
+    animation-duration: 1.25s; 
+    width: 650;
 }
 
 .profile-pic {
     width: 81%;
     height: 65%;
+    border-radius:50px;
     margin-left: 10px;
-    position: relative;
-    animation-name: picture-appear;
-    animation-duration: 1.25s;
 }
 
 @keyframes picture-appear {
-    0% {left: 200px; opacity: 0%}
-    100% {left: 0px; opacity: 100%}
+    0% {bottom: 100px; opacity: 0%}
+    100% {bottom: 0px; opacity: 100%}
 }
 
 

@@ -17,8 +17,9 @@
     text-align: center;
     /* background-color: blue; */
     position: relative;
-    animation-name: title-appear;
-    animation-duration: 1s;
+    /* animation-name: title-appear;
+    animation-duration: 1s; */
+    animation: title-appear 1s ease;
 }
 
 @keyframes title-appear {
@@ -50,7 +51,7 @@
 }
 
 @keyframes project-left-appear {
-    0% {right: 200px; opacity: 0%}
+    0% {right: 50px; opacity: 0%}
     100% {right: 0px; opacity: 100%}
 }
 
@@ -78,7 +79,7 @@
 }
 
 @keyframes project-right-appear {
-    from {left: 200px; opacity: 0%}
+    from {left: 30px; opacity: 0%}
     to {left: 0px; opacity: 100%}
     /* from {opacity: 0%}
     to {opacity: 100%} */

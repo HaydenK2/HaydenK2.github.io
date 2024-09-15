@@ -18,6 +18,48 @@
     /* background-color: black; */
 }
 
+.social-image-container {
+
+    margin-top:13px;
+}
+
+.linkedInIcon {
+    /* background-color: white; */
+    width: 50px;
+    height: 50px;
+    transition: 0.25s;
+    border-radius: 5px;
+}
+.linkedInIcon:hover {
+    transition: 0.25s;
+    background: rgb(81, 81, 81);
+}
+
+.gitHubIcon {
+    /* background-color: white; */
+    width: 50px;
+    height: 50px;
+    transition: 0.25s;
+    border-radius: 5px;
+}
+.gitHubIcon:hover {
+    transition: 0.25s;
+    background: rgb(81, 81, 81);
+}
+
+.youtubeIcon {
+    /* background: white; */
+    width: 70px;
+    height: 50px;
+    transition: 0.25s;
+    border-radius: 5px;
+}
+
+.youtubeIcon:hover {
+    transition: 0.25s;
+    background: rgb(81, 81, 81);
+}
+
 .long-container {
     width: 70%;
     height: 100%;
@@ -34,4 +76,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+   
+}
+
+.text-rights{
+    margin-top: 12px;
 }
