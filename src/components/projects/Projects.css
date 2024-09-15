@@ -41,8 +41,12 @@
     height: 500px;
     display: flex;
     position: relative;
-    animation-name: project-left-appear;
-    animation-duration: 1.25s;
+    /* animation-name: project-left-appear; */
+    /* animation-duration: 1.25s; */
+}
+
+.left-box-container.in-view {
+    animation: project-left-appear 1.25s ease;
 }
 
 @keyframes project-left-appear {
@@ -60,18 +64,24 @@
 
 .right-box-container {
     margin-right: 40px;
-    /* background-color: green; */
+    /* background-color: brown; */
     width: 1000px;
     height: 500px;
     display: flex;
     position: relative;
-    animation-name: project-right-appear;
-    animation-duration: 1.25s;
+    /* animation-name: project-right-appear;
+    animation-duration: 1.25s; */
+}
+
+.right-box-container.in-view {
+    animation: project-right-appear 1.25s ease;
 }
 
 @keyframes project-right-appear {
-    0% {left: 200px; opacity: 0%}
-    100% {left: 0px; opacity: 100%}
+    from {left: 200px; opacity: 0%}
+    to {left: 0px; opacity: 100%}
+    /* from {opacity: 0%}
+    to {opacity: 100%} */
 }
 
 .project-gif-container {

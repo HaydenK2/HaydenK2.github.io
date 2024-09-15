@@ -8,6 +8,7 @@ import Projects from "./components/projects/Projects";
 import AboutMe from "./components/aboutme/AboutMe";
 import Footer from "./components/footer/Footer";
 function App() {
+  
   return (
     <div className="App">
         <Header/>
