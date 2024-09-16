@@ -95,13 +95,15 @@ const Home = () => {
               <div className="about-me-summary-container">
                 <div className ="section-title-container">
                     <h1> About Me </h1>
-                    <h6 className="cursive-text"> "Who art thou Hayden?" </h6>
+                    <h6 className="cursive-text"> "Who art thou Hayden Kim?" </h6>
                 </div>
                 <br/>
-                <br/>
                 <div className="summary-text">
-                  Hi there! My name is Hayden Kim! I'm a senior at UIUC studying Mathematics and Computer Science. 
-                  I'm aiming to be a software engineer that can create software to help improve the lives of others! Along with my strong math background, I also have worked in various computer sciences including
+                  Hi there!
+                </div>
+                <div className="summary-text">
+                  My name is Hayden Kim! I'm a senior at UIUC studying Mathematics and Computer Science. 
+                  I'm aiming to become a software engineer that can create software to help improve the lives of others. Along with my strong math background, I also have worked in various computer sciences including
                   full-stack development, artificial intelligence, database systems, and systems programing!
                 </div>
                 <br/>
@@ -139,6 +141,17 @@ const Home = () => {
                   </Link>
                   <div className="contact-name-container">
                     LinkedIn
+                  </div>
+                </div>
+
+                <div ref={addToElesRef} className="contact-item-email">
+                  <div className="email-contact-container">
+                      <a href= "mailto: haydenk643@gmail.com" className="email-text">
+                        haydenk643@gmail.com
+                      </a>
+                  </div>
+                  <div className="contact-name-container">
+                    Email
                   </div>
                 </div>
                 
