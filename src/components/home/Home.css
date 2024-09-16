@@ -28,8 +28,6 @@
     100% {bottom: 0px; opacity: 100%}
 }
 
-
-
 .name-container {
     position: relative;
     animation-name: name-appear;
@@ -54,7 +52,7 @@
 }
 
 .welcome-text {
-    font-size: 35px;
+    font-size: 30px;
     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255));
     color: transparent;
     background-clip: text;
@@ -83,7 +81,7 @@
     position: relative;
     animation-name: picture-appear;
     animation-duration: 1.25s; 
-    width: 650;
+    width: 650px;
 }
 
 .profile-pic {
@@ -105,10 +103,11 @@
     flex-direction: row;
     align-items:center;
     justify-content: space-between;
-    margin:auto;
+    margin-top:-80px;
     padding: 20px;
     width:100%;
     height:400px;    
+    
 }
 
 .contact-item {
@@ -117,6 +116,17 @@
     height: 40%;
     margin: 10%;
     padding: 30px;
+    position: relative;
+    
+}
+
+.contact-item.in-view {
+    animation: contact-item-appear 1s ease;
+}
+
+@keyframes contact-item-appear {
+    0% {top: 50px; opacity: 0%}
+    100% {top: 0px; opacity: 100%}
 }
 
 .image-contact {

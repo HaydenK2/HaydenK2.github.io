@@ -69,9 +69,10 @@ const Home = () => {
                 <div className="title-text"> Hello! 안녕하세요!</div>
                 <div className="name-container">
                   <span className="im-text"> I'm </span>
-                  <span className="name-text"> Hayden Kim </span>  
+                  <span className="name-text"> Hayden Kim</span>  
+                  <span className="im-text">!</span>  
                 </div>
-                <div className="welcome-text"> Welcome to my Website! </div>
+                <div className="welcome-text"> Software Developer, Musician, Optimistic Learner</div>
                 
               </div>
               
@@ -80,7 +81,6 @@ const Home = () => {
                 <div className="profile-pic-frame">
                   <img className="profile-pic" src={profilePhoto} alt="profile picture"></img>
                 </div>
-                
             </div>
         </div>
         <br/>
@@ -95,7 +95,7 @@ const Home = () => {
               <div className="about-me-summary-container">
                 <div className ="section-title-container">
                     <h1> About Me </h1>
-                    <h6> Who art thou Hayden Kim? </h6>
+                    <h6 className="cursive-text"> "Who art thou Hayden?" </h6>
                 </div>
                 <br/>
                 <br/>
@@ -133,7 +133,7 @@ const Home = () => {
             </div>
             
             <div className="contact-info-container">
-                <div className="contact-item">
+                <div ref={addToElesRef} className="contact-item">
                   <Link to="https://www.linkedin.com/in/hayden-kim-az/">
                     <Image src="/company_images/LI-In-Bug.png" className="image-linkedin-contact" alt="LinkedIn"/>
                   </Link>
@@ -142,7 +142,7 @@ const Home = () => {
                   </div>
                 </div>
                 
-                <div className="contact-item">
+                <div ref={addToElesRef} className="contact-item">
                   <Link to="https://www.linkedin.com/in/hayden-kim-az/">
                     <Image src="/company_images/github-mark-white.png" className="image-contact" alt="LinkedIn"/>
                   </Link>
@@ -151,7 +151,7 @@ const Home = () => {
                   </div>
                 </div>
 
-                <div className="contact-item">
+                <div ref={addToElesRef} className="contact-item">
                   <a href={Pdf}>
                     <Image src={LogoPhoto} href={Pdf} className="image-contact" alt="LinkedIn"/>
                   </a>

@@ -76,17 +76,17 @@ const Projects = () => {
                         </div>
                         <div className="project-description-container">
                             <div>
-                                An application made using React where I that provides information about who I am as well as the the projects I have completed.
+                                An React application that provides information about who I am as well as the projects I have completed.
                             </div>
                             <br/>
                             <div>
-                                Main Components: React
+                                Main Components: React, CSS
                             </div>
                         </div>
                     </div>
                     <div className="project-gif-container">
                         <Link to="https://github.com/HaydenK2/Hayden-Portfolio-Website">
-                            <img className="project-gif" src={PortfolioDemo} alt="Job App Tracker Gif"/>
+                            <img className="portfolio-project-gif" src={PortfolioDemo} alt="Job App Tracker Gif"/>
                         </Link>
                         
                     </div>
@@ -110,7 +110,7 @@ const Projects = () => {
                             </div>
                             <br/>
                             <div>
-                                Main Components: React, SpringBoot, MongoDB, ngrok
+                                Main Components: React, CSS, SpringBoot, MongoDB, ngrok
                             </div>
                         </div>
                     </div>

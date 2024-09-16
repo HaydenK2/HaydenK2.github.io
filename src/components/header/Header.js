@@ -19,7 +19,6 @@ const Header = () => {
                         style={{maxHeight: '100px'}}
                     >      
                         <NavLink className="nav-link" to="/"> <img className="logo-image" to="/" src={LogoImage}/> </NavLink>
-                        
                        
                     </Nav>
                     <Nav

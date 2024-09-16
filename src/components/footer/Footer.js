@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
           
           <div>
-            Made with React and CSS
+            Website made using React and CSS
           </div>
         </div>
 
