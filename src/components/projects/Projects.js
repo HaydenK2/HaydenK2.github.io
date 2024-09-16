@@ -17,10 +17,10 @@ const Projects = () => {
                     entry.target.classList.add('in-view');
                 } 
 
-                //  use this if we want to play the animation again (no. we don't want to)
-                // else {
-                //     entry.target.classList.remove('in-view');
-                // }
+                //  use this if we want to play the animation again (yes. we I want to)
+                else {
+                    entry.target.classList.remove('in-view');
+                }
             });
         };
     
