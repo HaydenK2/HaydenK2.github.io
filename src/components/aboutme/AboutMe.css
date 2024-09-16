@@ -17,7 +17,7 @@
 
 .about-me-photo-frame {
     /* background-color: blue; */
-    width: 700px;
+    width: 650px;
     position: relative;
 }
 
@@ -34,7 +34,7 @@
 }
 
 @keyframes about-me-photo-appear {
-    0% {left: 100px; opacity: 0%}
+    0% {left: 65px; opacity: 0%}
     100% {left: 0px; opacity: 100%}
     /* from {opacity: 0%}
     to {opacity: 100%} */

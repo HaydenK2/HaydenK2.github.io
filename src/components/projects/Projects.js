@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import {Link} from 'react-router-dom';
 import {useEffect, useRef} from 'react';
 
 const Projects = () => {
@@ -63,8 +64,6 @@ const Projects = () => {
             </div>
             <br/>
             <br/>
-            <br/>
-            <br/>
 
             <div className="left-container animate">
                 <div ref={addToElesRef} className ="left-box-container ">
@@ -83,7 +82,10 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="project-gif-container">
-                        <img className="project-gif" src='/gifs/JobAppTrackerDemo.gif' alt="Job App Tracker Gif"/>
+                        <Link to="https://github.com/HaydenK2/Hayden-Portfolio-Website">
+                            <img className="project-gif" src='/project-gifs-images/PortfolioWebsite.png' alt="Job App Tracker Gif"/>
+                        </Link>
+                        
                     </div>
 
                 </div>
@@ -110,7 +112,10 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="project-gif-container">
-                    <img className="project-gif" src='/gifs/JobAppTrackerDemo.gif' alt="Job App Tracker Gif"/>
+                        <Link to="https://github.com/HaydenK2/Job-Application-Tracker"> 
+                            <img className="project-gif" src='/project-gifs-images/JobAppTrackerDemo.gif' alt="Job App Tracker Gif"/>
+                        </Link>
+                    
                     </div>
                     
                 </div>
@@ -119,9 +124,6 @@ const Projects = () => {
 
             <div className="left-container">
                 <div ref={addToElesRef} className ="left-box-container">
-                    <div className="project-gif-container">
-                        <img className="project-gif" src='/gifs/JobAppTrackerDemo.gif' alt="Job App Tracker Gif"/>
-                    </div>
                     <div className = "project-summary-container">
                         <div className="project-title-container">
                             Noko Bot
@@ -136,6 +138,11 @@ const Projects = () => {
                                 Main Components: Discord API, JavaScript
                             </div>
                         </div>
+                    </div>
+                    <div className="project-gif-container">
+                        <Link to="https://github.com/HaydenK2/Noko-Bot">
+                            <img className="project-gif" src='/project-gifs-images/NokobotDemo.gif' alt="Job App Tracker Gif"/>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -160,7 +167,9 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="project-gif-container">
-                    <img className="project-gif" src='/gifs/JobAppTrackerDemo.gif' alt="Job App Tracker Gif"/>
+                        <Link to="https://github.com/HaydenK2/League_of_Legends_Metrics_Viewer">
+                            <img className="project-image" src='/project-gifs-images/github-mark-white.png' alt="LOL Metrics Viewer"/>
+                        </Link>
                     </div>
                     
                 </div>
@@ -168,9 +177,6 @@ const Projects = () => {
             <br/>
             <div className="left-container">
                 <div ref={addToElesRef} className ="left-box-container">
-                    <div className="project-gif-container">
-                        <img className="project-gif" src='/gifs/JobAppTrackerDemo.gif' alt="Job App Tracker Gif"/>
-                    </div>
                     <div className = "project-summary-container">
                         <div className="project-title-container">  
                             PrairieLearn++
@@ -185,13 +191,48 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="project-gif-container">
+                        <Link to="https://github.com/HaydenK2/PrairieLearnExtension">
+                            <img className="project-image" src='/project-gifs-images/github-mark-white.png' alt="PrairieLearn++"/>
+                        </Link>
+                    </div>
                 </div>
             </div>
             <br/>
+
             <div className="right-container">
                 <div ref={addToElesRef} className ="right-box-container">
                     <div className = "project-summary-container">
                         <div className="project-title-container">
+                            Newsflow
+                        </div>
+                        <div className="project-description-container">
+                            <div>
+                                A Python web application within a team of four that diversifies news article search results. 
+                                The main functionality of the application is to highlight the top ten news articles based on news topic and country. This is for those who are looking to look at topics from various perspectives. 
+                                The application also uses Twitter API to display the top ten trends related to a specified country or news topic.                            </div>
+                            <br/>
+                            <div>
+                                Main Components: Python, Twitter API
+                            </div>
+                        </div>
+                    </div>
+                    <div className="project-gif-container">
+                        <Link to="https://github.com/HaydenK2/Newsflow">
+                            <img className="project-image" src='/project-gifs-images/github-mark-white.png' alt="Newsflow"/>
+                        </Link>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+            <br/>
+
+            <div className="left-container">
+                <div ref={addToElesRef} className ="left-box-container">
+  
+                    <div className = "project-summary-container">
+                        <div className="project-title-container">  
                             Task Master
                         </div>
                         <div className="project-description-container">
@@ -205,9 +246,11 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="project-gif-container">
-                    <img className="project-gif" src='/gifs/JobAppTrackerDemo.gif' alt="Job App Tracker Gif"/>
+                        <Link to="https://github.com/HaydenK2/FinalAndroidAppProject">
+                            <img className="project-image" src='/project-gifs-images/github-mark-white.png' alt="Task Master"/>
+                        </Link>
+                        
                     </div>
-                    
                 </div>
             </div>
             <br/>

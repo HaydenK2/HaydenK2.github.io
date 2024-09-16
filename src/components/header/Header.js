@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container, Nav, Navbar} from 'react-bootstrap';
 import {NavLink} from "react-router-dom";
-
+import './Header.css';
 const Header = () => {
   return (
 
@@ -14,12 +14,20 @@ const Header = () => {
 
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
+                        className="ml-auto my-2 my-lg-0"
+                        style={{maxHeight: '100px'}}
+                    >      
+                        <NavLink className="nav-link" to="/"> <img className="logo-image" to="/" src="my-photos/MyLogo.png"/> </NavLink>
+                        
+                       
+                    </Nav>
+                    <Nav
                         className="ms-auto my-2 my-lg-0"
                         style={{maxHeight: '100px'}}
-                    >
+                    >      
                     
                         <NavLink className="nav-link" to="/"> Home </NavLink>
-                        <NavLink className="nav-link" to="/about"> About Me </NavLink>
+                        <NavLink className="nav-link" to="/"> About Me </NavLink>
                         <NavLink className="nav-link" to="/projects"> Projects </NavLink>
                     </Nav>
                     
