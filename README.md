@@ -1,3 +1,6 @@
 # Hayden-Portfolio-Website
 
-Use npm start run the code
+To run the website locally run the following command
+```
+npm start
+```

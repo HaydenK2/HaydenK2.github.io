@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container, Nav, Navbar} from 'react-bootstrap';
 import {NavLink} from "react-router-dom";
+import LogoImage from '../../personal_files/my_photos/MyLogo.png';
 import './Header.css';
 const Header = () => {
   return (
@@ -17,7 +18,7 @@ const Header = () => {
                         className="ml-auto my-2 my-lg-0"
                         style={{maxHeight: '100px'}}
                     >      
-                        <NavLink className="nav-link" to="/"> <img className="logo-image" to="/" src="my-photos/MyLogo.png"/> </NavLink>
+                        <NavLink className="nav-link" to="/"> <img className="logo-image" to="/" src={LogoImage}/> </NavLink>
                         
                        
                     </Nav>

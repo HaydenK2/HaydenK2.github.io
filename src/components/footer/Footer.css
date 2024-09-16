@@ -19,13 +19,12 @@
 }
 
 .social-image-container {
-
     margin-top:13px;
 }
 
 .linkedInIcon {
     /* background-color: white; */
-    width: 50px;
+    width: 62px;
     height: 50px;
     transition: 0.25s;
     border-radius: 5px;

@@ -2,6 +2,10 @@ import React from 'react';
 import './Projects.css';
 import {Link} from 'react-router-dom';
 import {useEffect, useRef} from 'react';
+import PortfolioDemo from '../../personal_files/project_demos/PortfolioWebsite.png';
+import JobAppTrackerDemo from '../../personal_files/project_demos/JobAppTrackerDemo.gif';
+import NokoDemo from '../../personal_files/project_demos/NokobotDemo.gif';
+import DefaultDemo from '../../personal_files/project_demos/github-mark-white.png'
 
 const Projects = () => {
     //  will store the classes that use ref
@@ -55,8 +59,7 @@ const Projects = () => {
 
     
     return (
-        
-        <div className = "project-container">
+        <div className="project-container">
         
             <div className ="section-title-container">
                 <h1> My Projects </h1>
@@ -83,7 +86,7 @@ const Projects = () => {
                     </div>
                     <div className="project-gif-container">
                         <Link to="https://github.com/HaydenK2/Hayden-Portfolio-Website">
-                            <img className="project-gif" src='/project-gifs-images/PortfolioWebsite.png' alt="Job App Tracker Gif"/>
+                            <img className="project-gif" src={PortfolioDemo} alt="Job App Tracker Gif"/>
                         </Link>
                         
                     </div>
@@ -113,7 +116,7 @@ const Projects = () => {
                     </div>
                     <div className="project-gif-container">
                         <Link to="https://github.com/HaydenK2/Job-Application-Tracker"> 
-                            <img className="project-gif" src='/project-gifs-images/JobAppTrackerDemo.gif' alt="Job App Tracker Gif"/>
+                            <img className="project-gif" src={JobAppTrackerDemo} alt="Job App Tracker Gif"/>
                         </Link>
                     
                     </div>
@@ -141,7 +144,7 @@ const Projects = () => {
                     </div>
                     <div className="project-gif-container">
                         <Link to="https://github.com/HaydenK2/Noko-Bot">
-                            <img className="project-gif" src='/project-gifs-images/NokobotDemo.gif' alt="Job App Tracker Gif"/>
+                            <img className="project-gif" src={NokoDemo} alt="Job App Tracker Gif"/>
                         </Link>
                     </div>
                 </div>
@@ -168,7 +171,7 @@ const Projects = () => {
                     </div>
                     <div className="project-gif-container">
                         <Link to="https://github.com/HaydenK2/League_of_Legends_Metrics_Viewer">
-                            <img className="project-image" src='/project-gifs-images/github-mark-white.png' alt="LOL Metrics Viewer"/>
+                            <img className="project-image" src={DefaultDemo} alt="LOL Metrics Viewer"/>
                         </Link>
                     </div>
                     
@@ -193,7 +196,7 @@ const Projects = () => {
                     </div>
                     <div className="project-gif-container">
                         <Link to="https://github.com/HaydenK2/PrairieLearnExtension">
-                            <img className="project-image" src='/project-gifs-images/github-mark-white.png' alt="PrairieLearn++"/>
+                            <img className="project-image" src={DefaultDemo} alt="PrairieLearn++"/>
                         </Link>
                     </div>
                 </div>
@@ -219,7 +222,7 @@ const Projects = () => {
                     </div>
                     <div className="project-gif-container">
                         <Link to="https://github.com/HaydenK2/Newsflow">
-                            <img className="project-image" src='/project-gifs-images/github-mark-white.png' alt="Newsflow"/>
+                            <img className="project-image" src={DefaultDemo} alt="Newsflow"/>
                         </Link>
                     
                     </div>
@@ -247,7 +250,7 @@ const Projects = () => {
                     </div>
                     <div className="project-gif-container">
                         <Link to="https://github.com/HaydenK2/FinalAndroidAppProject">
-                            <img className="project-image" src='/project-gifs-images/github-mark-white.png' alt="Task Master"/>
+                            <img className="project-image" src={DefaultDemo} alt="Task Master"/>
                         </Link>
                         
                     </div>
