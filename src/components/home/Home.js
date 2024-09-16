@@ -136,39 +136,47 @@ const Home = () => {
             
             <div className="contact-info-container">
                 <div ref={addToElesRef} className="contact-item">
-                  <Link to="https://www.linkedin.com/in/hayden-kim-az/">
-                    <Image src="/company_images/LI-In-Bug.png" className="image-linkedin-contact" alt="LinkedIn"/>
-                  </Link>
-                  <div className="contact-name-container">
+                  <div className="image-linkedin-contact-container">
+                    <Link to="https://www.linkedin.com/in/hayden-kim-az/">
+                      <Image src="/company_images/LI-In-Bug.png" className="image-linkedin-contact" alt="LinkedIn"/>
+                    </Link>
+                  </div>
+
+                  <div className="contact-item-name-container">
                     LinkedIn
                   </div>
                 </div>
 
                 <div ref={addToElesRef} className="contact-item-email">
+                  
                   <div className="email-contact-container">
                       <a href= "mailto: haydenk643@gmail.com" className="email-text">
                         haydenk643@gmail.com
                       </a>
                   </div>
-                  <div className="contact-name-container">
+                  <div className="contact-item-name-container">
                     Email
                   </div>
                 </div>
                 
                 <div ref={addToElesRef} className="contact-item">
-                  <Link to="https://www.linkedin.com/in/hayden-kim-az/">
-                    <Image src="/company_images/github-mark-white.png" className="image-contact" alt="LinkedIn"/>
-                  </Link>
-                  <div className="contact-name-container">
+                  <div className="image-contact-container">
+                    <Link to="https://www.linkedin.com/in/hayden-kim-az/">
+                      <Image src="/company_images/github-mark-white.png" className="image-contact" alt="LinkedIn"/>
+                    </Link>
+                  </div>
+                  <div className="contact-item-name-container">
                     GitHub
                   </div>
                 </div>
 
                 <div ref={addToElesRef} className="contact-item">
-                  <a href={Pdf}>
-                    <Image src={LogoPhoto} href={Pdf} className="image-contact" alt="LinkedIn"/>
-                  </a>
-                  <div className="contact-name-container">
+                  <div className="image-contact-container">
+                    <a href={Pdf}>
+                      <Image src={LogoPhoto} href={Pdf} className="image-contact" alt="LinkedIn"/>
+                    </a>
+                  </div>
+                  <div className="contact-item-name-container">
                     Resume
                   </div>
                 </div>
