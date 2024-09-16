@@ -109,7 +109,7 @@ const Home = () => {
                 <br/>
                 <div className="summary-text">
                   In addition to academics and projects, I have been involved in various organizations and companies. 
-                  Notable involvements include ACM SIGPWY member, working in the strategy/telemtry team of the Illini Solar Car Club, Course Assistant for UIUC's Stat 400 course,
+                  Notable involvements include ACM SIGPwny member, working in the strategy/telemtry team of the Illini Solar Car Club, Course Assistant for UIUC's Stat 400 course,
                   UIUC's Asian American Cultural Center, Outreach Chair for the Society of Asian Scientists and Engineers at UIUC, and a two time Technology Development Intern for UnitedHealth Group/Optum.
                 </div>
                 <br/>
