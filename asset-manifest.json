@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b64c50f8.css",
-    "main.js": "/static/js/main.bd28cc99.js",
+    "main.css": "/static/css/main.d7f4494a.css",
+    "main.js": "/static/js/main.9898b800.js",
     "static/media/JobAppTrackerDemo.gif": "/static/media/JobAppTrackerDemo.ca56febeaac12e09e6d7.gif",
     "static/media/PortfolioWebsite.png": "/static/media/PortfolioWebsite.1e94dfae166e29c8e8ad.png",
     "static/media/NokobotDemo.gif": "/static/media/NokobotDemo.c367f795c6d97ca9ea83.gif",
@@ -10,11 +10,11 @@
     "static/media/Hayden_Kim_Resume.pdf": "/static/media/Hayden_Kim_Resume.181e2a0ee011596c8aa5.pdf",
     "static/media/MyLogo.png": "/static/media/MyLogo.577b09bd248cb5b3b0ea.png",
     "index.html": "/index.html",
-    "main.b64c50f8.css.map": "/static/css/main.b64c50f8.css.map",
-    "main.bd28cc99.js.map": "/static/js/main.bd28cc99.js.map"
+    "main.d7f4494a.css.map": "/static/css/main.d7f4494a.css.map",
+    "main.9898b800.js.map": "/static/js/main.9898b800.js.map"
   },
   "entrypoints": [
-    "static/css/main.b64c50f8.css",
-    "static/js/main.bd28cc99.js"
+    "static/css/main.d7f4494a.css",
+    "static/js/main.9898b800.js"
   ]
 }
