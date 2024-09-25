@@ -142,7 +142,7 @@ const Home = () => {
                     </Link>
                   </div>
 
-                  <div className="contact-item-name-container">
+                  <div className="contact-linkedin-name-container">
                     LinkedIn
                   </div>
                 </div>
