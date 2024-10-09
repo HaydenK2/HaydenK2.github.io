@@ -5,6 +5,7 @@ import {useEffect, useRef} from 'react';
 import PortfolioDemo from '../../personal_files/project_demos/PortfolioWebsite.png';
 import JobAppTrackerDemo from '../../personal_files/project_demos/JobAppTrackerDemo.gif';
 import NokoDemo from '../../personal_files/project_demos/NokobotDemo.gif';
+import LolStat from '../../personal_files/project_demos/LOLStatMetricViewer.gif';
 import DefaultDemo from '../../personal_files/project_demos/github-mark-white.png'
 
 const Projects = () => {
@@ -171,7 +172,7 @@ const Projects = () => {
                     </div>
                     <div className="project-gif-container">
                         <Link to="https://github.com/HaydenK2/League_of_Legends_Metrics_Viewer">
-                            <img className="project-image" src={DefaultDemo} alt="LOL Metrics Viewer"/>
+                            <img className="project-gif" src={LolStat} alt="LOL Metrics Viewer"/>
                         </Link>
                     </div>
                     
