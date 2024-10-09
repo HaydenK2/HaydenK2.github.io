@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.cce6cd47.css",
-    "main.js": "/static/js/main.6882ca01.js",
+    "main.js": "/static/js/main.b1691dc6.js",
     "static/media/JobAppTrackerDemo.gif": "/static/media/JobAppTrackerDemo.ca56febeaac12e09e6d7.gif",
+    "static/media/LOLStatMetricViewer.gif": "/static/media/LOLStatMetricViewer.8353babf223c54be2599.gif",
     "static/media/PortfolioWebsite.png": "/static/media/PortfolioWebsite.1e94dfae166e29c8e8ad.png",
     "static/media/NokobotDemo.gif": "/static/media/NokobotDemo.c367f795c6d97ca9ea83.gif",
     "static/media/about-me.jpg": "/static/media/about-me.0b2ec94ea3d6add55e3e.jpg",
@@ -11,10 +12,10 @@
     "static/media/MyLogo.png": "/static/media/MyLogo.577b09bd248cb5b3b0ea.png",
     "index.html": "/index.html",
     "main.cce6cd47.css.map": "/static/css/main.cce6cd47.css.map",
-    "main.6882ca01.js.map": "/static/js/main.6882ca01.js.map"
+    "main.b1691dc6.js.map": "/static/js/main.b1691dc6.js.map"
   },
   "entrypoints": [
     "static/css/main.cce6cd47.css",
-    "static/js/main.6882ca01.js"
+    "static/js/main.b1691dc6.js"
   ]
 }
